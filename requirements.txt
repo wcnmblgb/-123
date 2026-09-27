@@ -1,0 +1,12 @@
+# 贪吃蛇的运行依赖
+#
+# 核心玩法（图形界面 main.py / gui）零第三方依赖，标准库自带的 tkinter 即可。
+# 因此这里默认什么都不装也能跑。
+#
+# 只有「终端版」(python main.py terminal) 需要一个可选的补丁包：
+# Windows 上的标准 Python 不包含 curses 模块，需要：
+#
+#     pip install windows-curses
+#
+# 该依赖已按平台条件写在下面；Linux / macOS 上不会安装任何东西。
+windows-curses>=2.3.0; sys_platform == "win32"

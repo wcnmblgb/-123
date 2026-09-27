@@ -1,0 +1,22 @@
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 游戏运行时会生成的东西（分数截图、日志等）
+*.log
+screenshot*.png
